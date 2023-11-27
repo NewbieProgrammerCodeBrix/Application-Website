@@ -1,0 +1,473 @@
+body {
+    background-image: url('https://th.bing.com/th/id/R.acb41ba816eca377003c1b655685230a?rik=Kt8w6VKftmMZYA&riu=http%3a%2f%2fkllhistory.weebly.com%2fuploads%2f1%2f5%2f8%2f5%2f15854628%2f1357378805.jpg&ehk=QxeCTzIkndu9T8PmLHA51W8ddGOx0qPzXblSJ9hn5D8%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-color: rgba(100, 100, 0, 0.2);
+}
+form {
+    margin-top: 40px;
+    position: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    position: inline-block;
+    padding: 20px;   
+}
+.form-grid {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial;
+    position: static;
+}
+.form-left {
+    background-color: whitesmoke;
+    margin-right: 430px;
+}
+.form-right {
+    margin-left: 200px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.submit {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.submit:hover {
+    background-color: #45a049;
+}
+.boundary {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: gray;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.boundary-text {
+    font-family: Arial;
+    font-size: medium;
+    color: white;
+    position: center;
+}
+.footer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: gray;
+    height: 21px;
+}
+.footer-text {
+    font-family: Arial;
+    font-size: medium;
+    color: white;
+    position: center;
+}
+.Header {
+    height: 111px;
+    background-color: rgb(168, 39, 39);
+    display: flex;
+    flex-direction: row;
+    font-family: Arial;
+    position: static;
+}
+.left-section {
+    width: 100px;
+    border: 4px;
+    border-color: black;
+}
+.logo {
+    padding-left: 10px;
+    padding-top: 3px;
+    height: 105px;
+    width: 105px;
+    border: 3px;
+    border-radius: 1px;
+}
+.right-section {
+    width: 1000px;
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    position: static;
+}
+.boundary-top {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: gray;
+    height: 21px;
+}
+.boundary-top-text {
+    font-family: Arial;
+    color: white;
+}
+.ccs {
+    background-color: red;
+    width: 800px;
+    height: 150px;
+    border-radius: 75px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.ccs {
+    height: 111px;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: Arial;
+}
+.ccs-left {
+    height: 85px;
+    width: 85px;
+    border-radius: 35px;
+    border-color: white;
+    border: 1px;
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-left: 7px;
+    
+}
+.ccs-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    border-color: white;
+    border: 1px;
+    margin-right: 20px;
+    margin-left: 13px;
+}
+.ccs-right {
+    margin-left: 10px;
+    width: 600px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 40px;
+    margin-left: 0px;
+}
+
+.ccs-button {
+    height: 25px;
+    width: 50px;
+    margin-top: 50px;
+    background-color: white;
+    font-weight: 400;
+    font-style: Arial;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 10px;
+}
+.ccs-button:hover {
+    background-color: rgb(189, 189, 189);
+}
+.ccs-button:active {
+    background-color: white;
+}
+.bscs {
+
+    font-family: Arial;
+    font-size: 14px;
+}
+.act {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.cca {
+    background-color: green;
+    width: 800px;
+    height: 150px;
+    border-radius: 75px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.cca {
+    height: 111px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: Arial;
+}
+.cca-left {
+    height: 85px;
+    width: 85px;
+    border-radius: 35px;
+    border-color: white;
+    border: 1px;
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-left: 7px;
+    
+}
+.cca-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    border-color: white;
+    border: 2px;
+    margin-right: 0px;
+    margin-left: 13px;
+}
+.cca-right {
+    margin-left: 10px;
+    width: 600px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 0px;
+}
+
+.cca-button {
+    height: 25px;
+    width: 50px;
+    margin-top: 50px;
+    background-color: white;
+    font-weight: 400;
+    font-style: Arial;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 10px;
+}
+.cca-button:hover {
+    background-color: rgb(189, 189, 189);
+}
+.cca-button:active {
+    background-color: white;
+}
+
+.ccj {
+    background-color: maroon;
+    width: 800px;
+    height: 150px;
+    border-radius: 75px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.ccj {
+    height: 111px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: maroon;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: Arial;
+}
+.ccj-left {
+    height: 85px;
+    width: 85px;
+    border-radius: 35px;
+    border-color: white;
+    border: 1px;
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-left: 7px;
+    
+}
+.ccj-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    border-color: white;
+    border: 2px;
+    margin-right: 20px;
+    margin-left: 13px;
+}
+.ccj-right {
+    margin-left: 10px;
+    width: 600px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 40px;
+    margin-left: 0px;
+}
+
+.ccj-button {
+    height: 25px;
+    width: 50px;
+    margin-top: 50px;
+    background-color: white;
+    font-weight: 400;
+    font-style: Arial;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 10px;
+}
+.ccj-button:hover {
+    background-color: rgb(189, 189, 189);
+}
+.ccj-button:active {
+    background-color: white;
+}
+
+.cba {
+    background-color: pink;
+    width: 800px;
+    height: 150px;
+    border-radius: 75px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.cba {
+    height: 111px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: Arial;
+}
+.cba-left {
+    height: 85px;
+    width: 85px;
+    border-radius: 35px;
+    border-color: white;
+    border: 1px;
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-left: 7px;
+    
+}
+.cba-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    border-color: white;
+    border: 2px;
+    margin-right: 0px;
+    margin-left: 13px;
+}
+.cba-right {
+    margin-left: 10px;
+    width: 600px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 0px;
+}
+
+.cba-button {
+    height: 25px;
+    width: 50px;
+    margin-top: 50px;
+    background-color: white;
+    font-weight: 400;
+    font-style: Arial;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 10px;
+}
+.cba-button:hover {
+    background-color: rgb(189, 189, 189);
+}
+.cba-button:active {
+    background-color: white;
+}
+
+.cte {
+    background-color: gold;
+    width: 800px;
+    height: 150px;
+    border-radius: 75px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.cte {
+    height: 111px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: Arial;
+}
+.cte-left {
+    height: 85px;
+    width: 85px;
+    border-radius: 35px;
+    border-color: white;
+    border: 1px;
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-left: 7px;
+    
+}
+.cte-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    border-color: white;
+    border: 2px;
+    margin-right: 0px;
+    margin-left: 13px;
+}
+.cte-right {
+    margin-left: 10px;
+    width: 600px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 0px;
+}
+
+.cte-button {
+    height: 25px;
+    width: 50px;
+    margin-top: 50px;
+    background-color: white;
+    font-weight: 400;
+    font-style: Arial;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 10px;
+}
+.cte-button:hover {
+    background-color: rgb(189, 189, 189);
+}
+.cte-button:active {
+    background-color: white;
+}
+.beed {
+    font-family: Arial;
+    font-size: 14.5px;
+}
+.bsed {
+    font-family: Arial;
+    font-size: 14.5px;
+}
