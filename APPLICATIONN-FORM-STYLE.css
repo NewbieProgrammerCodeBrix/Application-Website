@@ -1,9 +1,25 @@
 body {
-    background-image: url('https://th.bing.com/th/id/R.acb41ba816eca377003c1b655685230a?rik=Kt8w6VKftmMZYA&riu=http%3a%2f%2fkllhistory.weebly.com%2fuploads%2f1%2f5%2f8%2f5%2f15854628%2f1357378805.jpg&ehk=QxeCTzIkndu9T8PmLHA51W8ddGOx0qPzXblSJ9hn5D8%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1');
-    background-size: cover;
+    
+    background-size: contain;
     background-position: center;
     background-repeat: repeat;
     background-color: rgba(100, 100, 0, 0.2);
+}
+
+a.courseClick {
+    margin-left: 25px;
+    width: 600px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 40px;
+    transition: font-size 0.5s ease;
+}
+a.courseClick:hover {
+    width: 1000px;
+    height: 100px;
+    text-decoration: underline;
+    font-size: 45px;
+    background-color: transparent;
 }
 form {
     margin-top: 40px;
@@ -24,7 +40,7 @@ form {
 }
 .form-left {
     background-color: whitesmoke;
-    margin-right: 430px;
+    margin-right: 520px;
 }
 .form-right {
     margin-left: 200px;
@@ -60,7 +76,7 @@ input, select {
 }
 .boundary-text {
     font-family: Arial;
-    font-size: medium;
+    font-size: 20px;
     color: white;
     position: center;
 }
@@ -72,7 +88,7 @@ input, select {
 }
 .footer-text {
     font-family: Arial;
-    font-size: medium;
+    font-size: 20;
     color: white;
     position: center;
 }
@@ -99,7 +115,7 @@ input, select {
 }
 .right-section {
     width: 1000px;
-    margin-left: 100px;
+    margin-left: 200px;
     text-align: center;
     color: white;
     font-size: 25px;
@@ -114,6 +130,7 @@ input, select {
 .boundary-top-text {
     font-family: Arial;
     color: white;
+    font-size: 20px;
 }
 .ccs {
     background-color: red;
@@ -126,7 +143,7 @@ input, select {
 }
 .ccs {
     height: 111px;
-    margin-left: 150px;
+    margin-left: 400px;
     margin-top: 100px;
     background-color: red;
     display: flex;
@@ -140,7 +157,7 @@ input, select {
     border-radius: 35px;
     border-color: white;
     border: 1px;
-    margin-right: 8px;
+    margin-right: 0px;
     margin-top: 10px;
     margin-left: 7px;
     
@@ -151,16 +168,15 @@ input, select {
     border-radius: 45px;
     border-color: white;
     border: 1px;
-    margin-right: 20px;
+    margin-right: 0px;
     margin-left: 13px;
 }
 .ccs-right {
-    margin-left: 10px;
-    width: 600px;
+    margin-left: 0px;
+    width: 800px;
     height: 100px;
     font-family: Arial;
     font-size: 40px;
-    margin-left: 0px;
 }
 
 .ccs-button {
@@ -194,7 +210,7 @@ input, select {
 
 .cca {
     background-color: green;
-    width: 800px;
+    width: 830px;
     height: 150px;
     border-radius: 75px;
     margin-top: 20px;
@@ -203,7 +219,7 @@ input, select {
 }
 .cca {
     height: 111px;
-    margin-left: 150px;
+    margin-left: 380px;
     margin-top: 50px;
     background-color: green;
     display: flex;
@@ -217,7 +233,7 @@ input, select {
     border-radius: 35px;
     border-color: white;
     border: 1px;
-    margin-right: 8px;
+    margin-right: 0px;
     margin-top: 10px;
     margin-left: 7px;
     
@@ -232,8 +248,7 @@ input, select {
     margin-left: 13px;
 }
 .cca-right {
-    margin-left: 10px;
-    width: 600px;
+    width: 900px;
     height: 100px;
     font-family: Arial;
     font-size: 35px;
@@ -271,7 +286,7 @@ input, select {
 }
 .ccj {
     height: 111px;
-    margin-left: 150px;
+    margin-left: 400px;
     margin-top: 50px;
     background-color: maroon;
     display: flex;
@@ -285,7 +300,7 @@ input, select {
     border-radius: 35px;
     border-color: white;
     border: 1px;
-    margin-right: 8px;
+    margin-right: 0px;
     margin-top: 10px;
     margin-left: 7px;
     
@@ -296,16 +311,16 @@ input, select {
     border-radius: 45px;
     border-color: white;
     border: 2px;
-    margin-right: 20px;
+    margin-right: 0px;
     margin-left: 13px;
 }
 .ccj-right {
-    margin-left: 10px;
-    width: 600px;
+    width: 750px;
     height: 100px;
     font-family: Arial;
     font-size: 40px;
     margin-left: 0px;
+    margin-right: 20px;
 }
 
 .ccj-button {
@@ -330,7 +345,7 @@ input, select {
 
 .cba {
     background-color: pink;
-    width: 800px;
+    width: 880px;
     height: 150px;
     border-radius: 75px;
     margin-top: 20px;
@@ -339,7 +354,7 @@ input, select {
 }
 .cba {
     height: 111px;
-    margin-left: 150px;
+    margin-left: 360px;
     margin-top: 50px;
     background-color: pink;
     display: flex;
@@ -353,7 +368,7 @@ input, select {
     border-radius: 35px;
     border-color: white;
     border: 1px;
-    margin-right: 8px;
+    margin-right: 0px;
     margin-top: 10px;
     margin-left: 7px;
     
@@ -368,12 +383,11 @@ input, select {
     margin-left: 13px;
 }
 .cba-right {
-    margin-left: 10px;
-    width: 600px;
+    margin-left: 0px;
+    width: 900px;
     height: 100px;
     font-family: Arial;
     font-size: 35px;
-    margin-left: 0px;
 }
 
 .cba-button {
@@ -397,8 +411,8 @@ input, select {
 }
 
 .cte {
-    background-color: gold;
-    width: 800px;
+    background-color: rgb(17, 0, 255);
+    width: 980px;
     height: 150px;
     border-radius: 75px;
     margin-top: 20px;
@@ -407,9 +421,9 @@ input, select {
 }
 .cte {
     height: 111px;
-    margin-left: 150px;
+    margin-left: 320px;
     margin-top: 50px;
-    background-color: gold;
+    background-color: rgb(17, 0, 255);
     display: flex;
     flex-direction: row;
     position: relative;
@@ -421,7 +435,7 @@ input, select {
     border-radius: 35px;
     border-color: white;
     border: 1px;
-    margin-right: 8px;
+    margin-right: 0px;
     margin-top: 10px;
     margin-left: 7px;
     
@@ -437,7 +451,7 @@ input, select {
 }
 .cte-right {
     margin-left: 10px;
-    width: 600px;
+    width: 920px;
     height: 100px;
     font-family: Arial;
     font-size: 35px;
@@ -470,4 +484,99 @@ input, select {
 .bsed {
     font-family: Arial;
     font-size: 14.5px;
+}
+
+
+.con {
+    margin-left: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 150px;
+    border-radius: 75px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.con {
+    height: 111px;
+    margin-left: 400px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: Arial;
+}
+.con-left {
+    height: 85px;
+    width: 85px;
+    border-radius: 35px;
+    border-color: white;
+    border: 1px;
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-left: 7px;
+    
+}
+.con-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    border-color: white;
+    border: 2px;
+    margin-right: 0px;
+    margin-left: 13px;
+}
+.con-right {
+    margin-left: 10px;
+    width: 600px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 35px;
+    margin-left: 0px;
+}
+
+.con-button {
+    height: 25px;
+    width: 50px;
+    margin-top: 50px;
+    background-color: rgb(255, 191, 191);
+    font-weight: 400;
+    font-style: Arial;
+    border-radius: 5px;
+    border: 2px;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 10px;
+}
+.con-button:hover {
+    background-color: rgb(189, 189, 189);
+}
+.con-button:active {
+    background-color: white;
+}
+.bsin {
+    font-family: Arial;
+    font-size: 14.5px;
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-130px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.viewPoint {
+    animation-name: slideInLeft;
+    animation-duration: 1.8s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
 }
