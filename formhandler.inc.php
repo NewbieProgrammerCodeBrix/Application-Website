@@ -51,11 +51,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $pdo = null;
         $stmt = null;
 
-        header("Location: ../APPLICATION-FORM.html");
+        header("Location: ../SECOND-FORM.html");
     } catch (Exception $e) {
         die("Query failed". $e->getMessage());
     }
 
 } else {
-    header("Location: ../APPLICATION-FORM.html");
+    header("Location: ../SECOND-FORM.html");
 }
